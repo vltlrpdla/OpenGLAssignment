@@ -1,0 +1,194 @@
+﻿빌드 시작: 2016-04-06 오후 1:33:47
+     1>2 노드의 "c:\Users\jeonghoon\documents\visual studio 2010\Projects\myDisplaylistcallback\myDisplaylistcallback.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\myDisplaylistcallback.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt myDisplaylistCallback.cpp
+         myDisplaylistCallback.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152): error C2146: 구문 오류 : ';'이(가) 'glAccum' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1153): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1153): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1153): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1153): error C2146: 구문 오류 : ';'이(가) 'glAlphaFunc' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1153): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1153): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1153): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1154): error C2146: 구문 오류 : ';'이(가) 'GLboolean' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1154): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1154): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1154): error C2146: 구문 오류 : ';'이(가) 'glAreTexturesResident' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1154): error C2371: 'APIENTRY' : 재정의. 기본 형식이 다릅니다.
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1154): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1155): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1155): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1155): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1155): error C2146: 구문 오류 : ';'이(가) 'glArrayElement' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1155): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1155): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1155): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1156): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1156): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1156): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1156): error C2146: 구문 오류 : ';'이(가) 'glBegin' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1156): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1156): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1156): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1157): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1157): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1157): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1157): error C2146: 구문 오류 : ';'이(가) 'glBindTexture' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1157): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1157): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1157): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1158): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1158): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1158): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1158): error C2146: 구문 오류 : ';'이(가) 'glBitmap' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1158): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1158): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1158): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1159): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1159): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1159): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1159): error C2146: 구문 오류 : ';'이(가) 'glBlendFunc' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1159): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1159): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1159): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1160): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1160): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1160): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1160): error C2146: 구문 오류 : ';'이(가) 'glCallList' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1160): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1160): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1160): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1161): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1161): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1161): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1161): error C2146: 구문 오류 : ';'이(가) 'glCallLists' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1161): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1161): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1161): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1162): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1162): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1162): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1162): error C2146: 구문 오류 : ';'이(가) 'glClear' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1162): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1162): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1162): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1163): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1163): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1163): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1163): error C2146: 구문 오류 : ';'이(가) 'glClearAccum' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1163): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1163): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1163): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1164): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1164): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1164): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1164): error C2146: 구문 오류 : ';'이(가) 'glClearColor' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1164): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1164): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1164): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1165): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1165): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1165): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1165): error C2146: 구문 오류 : ';'이(가) 'glClearDepth' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1165): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1165): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1165): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1166): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1166): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1166): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1166): error C2146: 구문 오류 : ';'이(가) 'glClearIndex' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1166): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1166): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1166): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1167): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1167): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1167): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1167): error C2146: 구문 오류 : ';'이(가) 'glClearStencil' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1167): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1167): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1167): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1168): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1168): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1168): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1168): error C2146: 구문 오류 : ';'이(가) 'glClipPlane' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1168): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1168): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1168): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1169): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1169): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1169): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1169): error C2146: 구문 오류 : ';'이(가) 'glColor3b' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1169): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1169): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1169): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1170): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1170): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1170): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1170): error C2146: 구문 오류 : ';'이(가) 'glColor3bv' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1170): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1170): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1170): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1171): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1171): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1171): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1171): error C2146: 구문 오류 : ';'이(가) 'glColor3d' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1171): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1171): error C2086: 'int APIENTRY' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'APIENTRY' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1171): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1172): error C2144: 구문 오류 : void'은(는) ';' 다음에 와야 합니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1172): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1172): error C2086: 'int WINGDIAPI' : 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1152) : 'WINGDIAPI' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1172): error C2146: 구문 오류 : ';'이(가) 'glColor3dv' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1172): error C2182: 'APIENTRY' : 'void' 형식을 잘못 사용했습니다.
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\gl.h(1172): fatal error C1003: 오류 수가 100개를 초과했습니다. 컴파일을 중지합니다.
+     1>"c:\Users\jeonghoon\documents\visual studio 2010\Projects\myDisplaylistcallback\myDisplaylistcallback.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:02.81

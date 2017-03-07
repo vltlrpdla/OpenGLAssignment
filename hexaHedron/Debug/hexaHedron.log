@@ -1,0 +1,15 @@
+﻿빌드 시작: 2016-04-06 오후 1:35:01
+     1>2 노드의 "C:\Users\jeonghoon\documents\visual studio 2010\Projects\hexaHedron\hexaHedron.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\hexaHedron.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\hexaHedron.exe.embed.manifest.res" Debug\hexaHedron_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jeonghoon\documents\visual studio 2010\Projects\hexaHedron\Debug\hexaHedron.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hexaHedron.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jeonghoon\documents\visual studio 2010\Projects\hexaHedron\Debug\hexaHedron.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jeonghoon\documents\visual studio 2010\Projects\hexaHedron\Debug\hexaHedron.lib" /MACHINE:X86 Debug\hexaHedron.exe.embed.manifest.res
+     1>LINK : error LNK2001: _mainCRTStartup 외부 기호를 확인할 수 없습니다.
+     1>C:\Users\jeonghoon\documents\visual studio 2010\Projects\hexaHedron\Debug\hexaHedron.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+     1>"C:\Users\jeonghoon\documents\visual studio 2010\Projects\hexaHedron\hexaHedron.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:01.38
